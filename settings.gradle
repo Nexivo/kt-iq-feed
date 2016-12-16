@@ -1,1 +1,11 @@
 rootProject.name = 'kt-iq-feed'
+
+include ':kt-iq-feed-api'
+project(':kt-iq-feed-api').projectDir = new File(settingsDir, 'kt-iq-feed-api')
+
+include ':kt-iq-feed-client'
+project(':kt-iq-feed-client').projectDir = new File(settingsDir, 'kt-iq-feed-client')
+
+include ':kt-iq-feed-manager'
+project(':kt-iq-feed-manager').projectDir = new File(settingsDir, 'kt-iq-feed-manager')
+

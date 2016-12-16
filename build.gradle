@@ -45,6 +45,9 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile project(":kt-iq-feed-api")
+    compile project(":kt-iq-feed-client")
+    compile project(":kt-iq-feed-manager")
 
     testCompile "com.winterbe:expekt:$expekt_version"
     testCompile "org.jmockit:jmockit:$jmockit_version"

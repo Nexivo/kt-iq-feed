@@ -1,0 +1,9 @@
+[submodule "kt-iq-feed-api"]
+	path = kt-iq-feed-api
+	url = https://github.com/Nexivo/kt-iq-feed-api.git
+[submodule "kt-iq-feed-client"]
+	path = kt-iq-feed-client
+	url = https://github.com/Nexivo/kt-iq-feed-client.git
+[submodule "kt-iq-feed-manager"]
+	path = kt-iq-feed-manager
+	url = https://github.com/Nexivo/kt-iq-feed-manager.git
